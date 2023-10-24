@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/> SLIDER  -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link
@@ -19,20 +18,74 @@
     <header class="header">
         <div class="header__container">
             <div class="header__body">
-                <a href="" class="header__logo">
+                <a href="./index.html" class="header__logo">
                     <svg class="header__logo-icon">
-                        <use href="#"></use>
+                        <use href="./icon/sprite.svg#icon-logo"></use>
                     </svg>
+                    Organick
                 </a>
-                <nav class="header__nal">
+                <nav class="header__nav">
                     <ul class="header__list">
-                        <li class="header__item"><a href="" class="header__link"></a></li>
+                        <li class="header__item"><a href="./index.html" class="header__link">Home</a></li>
+                        <li class="header__item"><a href="./about.html" class="header__link">About</a></li>
+                        <li class="header__item"><a href="" class="header__link pages">Pages
+                                <svg class='header__icon-arrow'>
+                                    <use href='./icon/sprite.svg#icon-arrow_bottom'></use>
+                                </svg>
+                            </a></li>
+                        <li class="header__item"><a href="./shop.html" class="header__link">Shop</a></li>
+                        <li class="header__item"><a href="" class="header__link">Projects</a></li>
+                        <li class="header__item"><a href="./news.html" class="header__link">News</a></li>
                     </ul>
                 </nav>
+                <div class="header__wrapper">
+                    <div class="header__search">
+                        <div class="header__wrapper-search">
+                            <svg class='header__icon-search'>
+                                <use href='./icon/sprite.svg#icon-search'></use>
+                            </svg>
+                        </div>
+                        <input type="text" class="header__input">
+                    </div>
+                    <div class="header__cart">
+                        <div class="header__wrapper-cart">
+                            <svg class='header__icon-cart'>
+                                <use href='./icon/sprite.svg#icon-cart'></use>
+                            </svg>
+                        </div>
+                        <p class="header__text">Cart (<span>0</span>)</p>
+                    </div>
+                </div>
+                <div class="header__burger-icon">
+                    <svg class='burger-icon'>
+                        <use href='./icon/sprite.svg#icon-burger'></use>
+                    </svg>
+                </div>
                 <div class="burger__menu">
                     <div class="burger__container">
                         <div class="burger__body">
-
+                            <nav class="burger__nav">
+                                <ul class="burger__list">
+                                    <li class="burger__item"><a href="./index.html" class="burger__link">Home</a></li>
+                                    <li class="burger__item"><a href="./about.html" class="burger__link">About</a></li>
+                                    <li class="burger__item"><a href="" class="burger__link">Pages</a></li>
+                                    <li class="burger__item"><a href="./shop.html" class="burger__link">Shop</a></li>
+                                    <li class="burger__item"><a href="" class="burger__link">Projects</a></li>
+                                    <li class="burger__item"><a href="./news.html" class="burger__link">News</a></li>
+                                </ul>
+                            </nav>
+                            <div class="burger__search">
+                                <svg class='burger__icon-search'>
+                                    <use href='./icon/sprite.svg#icon-search'></use>
+                                </svg>
+                                <input type="text" class="burger__input">
+                            </div>
+                            <div class="burger__cart">
+                                <svg class='burger__icon-cart'>
+                                    <use href='./icon/sprite.svg#icon-cart'></use>
+                                </svg>
+                                <p class="burger__text">Cart (<span>0</span>)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +122,6 @@
     </div>
 
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> SLIDER -->
 </body>
 
 </html>
