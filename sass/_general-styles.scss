@@ -1,0 +1,116 @@
+body {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.65; /* 29.772px */
+    color: var(--general-color);
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.lable {
+    font-family: "Yellowtail";
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--green-color);
+}
+.general-title {
+    font-family: "Roboto";
+    font-size: 70px;
+    font-weight: 800;
+    color: var(--title-color);
+}
+.title {
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--title-color);
+}
+.subtitle {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--title-color);
+}
+.medium-text {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--title-color);
+}
+.button-blue {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white-color);
+
+    border-radius: 16px;
+    background: var(--title-color);
+    cursor: pointer;
+}
+.button-yellow {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--title-color);
+
+    border-radius: 16px;
+    background: var(--yellow-color);
+    cursor: pointer;
+}
+.button-white {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--title-color);
+
+    border-radius: 16px;
+    border: 1px solid var(--title-color);
+    background: var(--white-color);
+    cursor: pointer;
+}
+.tag {
+    padding: 5px 12px 6px 12px;
+    
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--white-color);
+
+    border-radius: 8px;
+    background: var(--title-color);
+}
+.hidden {
+    overflow: hidden
+}
+
+// Плавний ховер
+// transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// box-shadow: 0px 13px 19px rgba(0,0,0,.07);
+
+//Гарний ховер для посилань
+// &::after {
+    //     content: "";
+    //     display: block;
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: -3px;
+    //     width: 0;
+    //     height: 2px; /* Высота линии */
+    //     background-color: var(--title-color); /* Цвет подчеркивания при исчезании линии*/
+    //     transition: width 0.5s; /* Время эффекта */
+    //     }
+    //     &:hover::after {
+    //     content: "";
+    //     width: 100%;
+    //     display: block;
+    //     position: absolute;
+    //     left: 0;
+    //     bottom: -3px;
+    //     height: 2px; /* Высота линии */
+    //     background-color: var(--title-color); /* Цвет подчеркивания при появлении линии*/
+    //     transition: width 0.5s;  /* Время эффекта */
+    //     }
