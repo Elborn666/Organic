@@ -1,0 +1,82 @@
+.hero {
+    position: relative;
+    background-image: url('../img/hero/hero_main.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero__img-garlic {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.hero__img-sead {
+    position: absolute;
+    top: 220px;
+    left: 135px;
+}
+.hero__img-many_leaf {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+.hero__img-sead_big {
+    position: absolute;
+    top: 0px;
+    right: 135px;
+}
+.hero__img-leaf {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.hero__container {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hero__img-decor {
+    position: absolute;
+    top: 50px;
+    left: 40%;
+}
+.hero__content {
+    padding-top: 223px;
+    padding-bottom: 246px;
+}
+.hero__lable {
+    margin-bottom: 8px;
+}
+.hero__title {
+    max-width: 530px;
+    margin-bottom: 23px;
+}
+.hero__button {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 29px 38px;
+    transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        background-color: inherit;
+        border: 1px solid var(--title-color);
+    }
+}
+.hero__icon-arrow {
+    width: 19px;
+    height: 19px;
+}
+@media screen and (max-width: 767.98px){
+    .hero__img-sead,
+    .hero__img-sead_big,
+    .hero__img-leaf {
+       display: none;
+    }
+}
+@media screen and (max-width: 549.98px){
+    .hero__img-garlic {
+        display: none;
+    }
+}

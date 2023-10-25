@@ -21,24 +21,28 @@ body {
     font-family: "Roboto";
     font-size: 70px;
     font-weight: 800;
+    line-height: normal;
     color: var(--title-color);
 }
 .title {
     font-family: "Roboto";
     font-size: 50px;
     font-weight: 800;
+    line-height: normal;
     color: var(--title-color);
 }
 .subtitle {
     font-family: "Roboto";
     font-size: 25px;
     font-weight: 800;
+    line-height: normal;
     color: var(--title-color);
 }
 .medium-text {
     font-family: "Roboto";
     font-size: 20px;
     font-weight: 500;
+    line-height: normal;
     color: var(--title-color);
 }
 .button-blue {
@@ -48,6 +52,7 @@ body {
     color: var(--white-color);
 
     border-radius: 16px;
+    border: 1px solid var(--title-color);
     background: var(--title-color);
     cursor: pointer;
 }
@@ -58,6 +63,7 @@ body {
     color: var(--title-color);
 
     border-radius: 16px;
+    border: 1px solid var(--yellow-color);
     background: var(--yellow-color);
     cursor: pointer;
 }
