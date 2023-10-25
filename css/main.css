@@ -471,6 +471,22 @@ a {
 
 .main__banner-item {
   position: relative;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.left {
+  transition: box-shadow 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.left:hover {
+  box-shadow: 0px 0px 10px 5px rgb(249, 104, 147);
+}
+
+.right {
+  transition: box-shadow 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.right:hover {
+  box-shadow: 0px 0px 20px 5px rgb(197, 211, 223);
 }
 
 .main__banner-img {
