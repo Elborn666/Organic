@@ -186,7 +186,15 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .header__logo {
+        font-size: 28px;
+    }
     .header__wrapper {
         display: none;
+    }
+}
+@media screen and (max-width: 479.98px){
+    .header__logo {
+        font-size: 20px;
     }
 }
