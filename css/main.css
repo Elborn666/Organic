@@ -850,6 +850,138 @@ a {
     padding: 19px 24px;
   }
 }
+.main__testimonial {
+  background-image: url("../img/testimonial/bg_img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main__testimonial-container {
+  padding-top: 164px;
+  padding-bottom: 164px;
+}
+
+.main__testimonial-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__testimonial-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.main__testimonial_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__testimonial-photo {
+  border-radius: 50%;
+}
+
+.main__testimonial-stars {
+  margin-top: 20px;
+}
+
+.main__testimonial-text {
+  margin-bottom: 20px;
+  margin-top: 25px;
+  max-width: 780px;
+  text-align: center;
+}
+
+.main__testimonial-position {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.65; /* 24.81px */
+  color: var(--general-color);
+}
+
+.testimonial-line {
+  display: block;
+  height: 1px;
+  width: 1110px;
+  background-color: #E0E0E0;
+  margin: 102px 0px;
+}
+
+.main__testimonial-list-statistic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 62px;
+  row-gap: 20px;
+}
+
+.main__testimonial-item-statistic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 211px;
+  height: 211px;
+  border-radius: 50%;
+  border: 5px solid var(--green-color);
+  text-align: center;
+  background-color: #F1F1F1;
+}
+
+.main__testimonial-text-statistic {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.65; /* 29.772px */
+  color: var(--title-color);
+}
+
+@media screen and (max-width: 1439.98px) {
+  .main__testimonial-list-statistic {
+    column-gap: 20px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .main__testimonial-container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .testimonial-line {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .main__testimonial-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .main__testimonial-list {
+    margin-bottom: 20px;
+  }
+  .testimonial-line {
+    width: 700px;
+    margin: 40px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .main__testimonial-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .main__testimonial-title {
+    margin-bottom: 20px;
+  }
+  .testimonial-line {
+    width: 480px;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .testimonial-line {
+    display: none;
+  }
+}
 .burger__menu {
   display: none;
 }
