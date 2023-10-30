@@ -1130,10 +1130,6 @@ a {
   }
 }
 @media screen and (max-width: 659.98px) {
-  .main__offer-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
   .main__offer-lable {
     text-align: center;
   }
@@ -1234,6 +1230,76 @@ a {
 @media screen and (max-width: 767.98px) {
   .main__econis-container {
     padding-top: 20px;
+  }
+}
+.main__gallery {
+  background-color: #F1F8F4;
+}
+
+.main__gallery-container {
+  max-width: 1950px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-top: 187px;
+  padding-bottom: 187px;
+}
+
+.main__gallery-list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.main__gallery-item {
+  position: relative;
+}
+
+.main__gallery-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.main__gallery-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 33px 75px;
+  border-radius: 20px;
+  background-color: var(--white-color);
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439.98px) {
+  .main__gallery-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .main__gallery-container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .main__gallery-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .main__gallery-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .main__gallery-button {
+    padding: 25px 35px;
   }
 }
 .burger__menu {
