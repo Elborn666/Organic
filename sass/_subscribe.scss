@@ -1,0 +1,62 @@
+.subscribe__container {
+    background-image: url('../img/subscribe/bg_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.subscribe__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+    padding: 100px 70px;
+}
+.subscribe__title {
+    max-width: 357px;
+    color: var(--white-color);
+}
+.subscribe__form {
+    display: flex;
+    column-gap: 6px;
+    row-gap: 10px;
+}
+.subscribe__input {
+    width: 349px;
+    padding: 28px 23px 31px 23px;
+    border: 1px solid var(--white-color);
+    border-radius: 16px;
+}
+.subscribe__button {
+    padding: 28px 47px;
+    transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        background-color: inherit;
+        border: 1px solid var(--white-color);
+    }
+}
+@media screen and (max-width: 991.98px){
+    .subscribe__form {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .subscribe__body {
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 150px 70px 90px 70px;
+    }
+    .subscribe__title {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 479.98px){
+    .subscribe__input {
+        width: 280px;
+        padding: 20px;
+    }
+    .subscribe__button {
+        padding: 19px 24px;
+    }
+}
+
