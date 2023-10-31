@@ -10,12 +10,14 @@
 }
 .main__gallery-list {
     display: flex;
+    justify-content: center;
     column-gap: 20px;
 }
 .main__gallery-item {
     position: relative;
 }
 .main__gallery-img {
+    display: block;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
