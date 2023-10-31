@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700;900&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title></title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__body">
+                <a href="./index.html" class="header__logo">
+                    <svg class="header__logo-icon">
+                        <use href="./icon/sprite.svg#icon-logo"></use>
+                    </svg>
+                    Organick
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="./index.html" class="header__link">Home</a></li>
+                        <li class="header__item"><a href="./about.html" class="header__link">About</a></li>
+                        <li class="header__item"><a href="" class="header__link pages">Pages
+                                <svg class='header__icon-arrow'>
+                                    <use href='./icon/sprite.svg#icon-arrow_bottom'></use>
+                                </svg>
+                            </a></li>
+                        <li class="header__item"><a href="./shop.html" class="header__link">Shop</a></li>
+                        <li class="header__item"><a href="" class="header__link">Projects</a></li>
+                        <li class="header__item"><a href="./news.html" class="header__link">News</a></li>
+                    </ul>
+                </nav>
+                <div class="header__wrapper">
+                    <div class="header__search">
+                        <div class="header__wrapper-search">
+                            <svg class='header__icon-search'>
+                                <use href='./icon/sprite.svg#icon-search'></use>
+                            </svg>
+                        </div>
+                        <input type="text" class="header__input">
+                    </div>
+                    <div class="header__cart">
+                        <div class="header__wrapper-cart">
+                            <svg class='header__icon-cart'>
+                                <use href='./icon/sprite.svg#icon-cart'></use>
+                            </svg>
+                        </div>
+                        <p class="header__text">Cart (<span>0</span>)</p>
+                    </div>
+                </div>
+                <div class="header__burger-icon">
+                    <svg class='burger-icon'>
+                        <use href='./icon/sprite.svg#icon-burger'></use>
+                    </svg>
+                </div>
+                <div class="burger__menu">
+                    <div class="burger__container">
+                        <div class="burger__body">
+                            <nav class="burger__nav">
+                                <ul class="burger__list">
+                                    <li class="burger__item"><a href="./index.html" class="burger__link">Home</a></li>
+                                    <li class="burger__item"><a href="./about.html" class="burger__link">About</a></li>
+                                    <li class="burger__item"><a href="" class="burger__link">Pages</a></li>
+                                    <li class="burger__item"><a href="./shop.html" class="burger__link">Shop</a></li>
+                                    <li class="burger__item"><a href="" class="burger__link">Projects</a></li>
+                                    <li class="burger__item"><a href="./news.html" class="burger__link">News</a></li>
+                                </ul>
+                            </nav>
+                            <div class="burger__search">
+                                <svg class='burger__icon-search'>
+                                    <use href='./icon/sprite.svg#icon-search'></use>
+                                </svg>
+                                <input type="text" class="burger__input">
+                            </div>
+                            <div class="burger__cart">
+                                <svg class='burger__icon-cart'>
+                                    <use href='./icon/sprite.svg#icon-cart'></use>
+                                </svg>
+                                <p class="burger__text">Cart (<span>0</span>)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <ul class="hero__list">
+                <li class="hero__item"><img src="./icon/garlic.svg" alt="garlic" class="hero__img-garlic"></li>
+                <li class="hero__item"><img src="./icon/sead.svg" alt="sead" class="hero__img-sead"></li>
+                <li class="hero__item"><img src="./icon/many_leaf.svg" alt="many_leaf" class="hero__img-many_leaf"></li>
+                <li class="hero__item"><img src="./icon/sead_big.svg" alt="sead_big" class="hero__img-sead_big"></li>
+                <li class="hero__item"><img src="./icon/leaf.svg" alt="leaf" class="hero__img-leaf"></li>
+            </ul>
+            <div class="hero__container container">
+                <img src="./icon/strawberry.svg" alt="strawberry" class="hero__img-decor">
+                <div class="hero__body">
+                    <div class="hero__content">
+                        <p class="hero__lable lable">100% Natural Food</p>
+                        <h1 class="hero__title general-title">Choose the best
+                            healthier way of life</h1>
+                        <div class="hero__wrapper-button">
+                            <button class="hero__button button-yellow">Explore Now
+                                <svg class='hero__icon-arrow'>
+                                    <use href='./icon/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__banner">
+            <div class="main__banner-container container">
+                <div class="main__banner-body">
+                    <ul class="main__banner-list">
+                        <li class="main__banner-item left">
+                            <img src="./img/action/banan.jpg" alt="banan" class="main__banner-img">
+                            <div class="main__banner-wrapper-left">
+                                <p class="main__banner-lable-left lable">Natural!!</p>
+                                <h2 class="main__banner-title">Get Garden Fresh Fruits</h2>
+                            </div>
+                        </li>
+                        <li class="main__banner-item right">
+                            <img src="./img/action/apricot.jpg" alt="apricot" class="main__banner-img">
+                            <div class="main__banner-wrapper-right">
+                                <p class="main__banner-lable-right lable">Offer!!</p>
+                                <h2 class="main__banner-title">Get 10% off on Vegetables</h2>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main__about">
+            <div class="main__about-container container">
+                <div class="main__about-body">
+                    <div class="main__about-img">
+                        <img src="./img/vegetables/belive.png" alt="Fruits" class="main__img-about">
+                    </div>
+                    <div class="main__about-content">
+                        <p class="main__about-lable lable">About Us</p>
+                        <h2 class="main__about-title title">We Believe in Working
+                            Accredited Farmers
+                        </h2>
+                        <p class="main__about-text">Simply dummy text of the printing and typesetting industry. Lorem
+                            had ceased to
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley.
+                        </p>
+                        <ul class="main__about-list">
+                            <li class="main__about-item">
+                                <img src="./img/icons/vegan.jpg" alt="vegan" class="main__about-icon">
+                                <div class="main__about-wrapper">
+                                    <h3 class="main__about-subtitle subtitle">Organic Foods Only</h3>
+                                    <p class="main__about-item-text">Simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum</p>
+                                </div>
+                            </li>
+                            <li class="main__about-item">
+                                <img src="./img/icons/mailbox.jpg" alt="mailbox" class="main__about-icon">
+                                <div class="main__about-wrapper">
+                                    <h3 class="main__about-subtitle subtitle">Quality Standards</h3>
+                                    <p class="main__about-item-text">Simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="main__about-wrapper-button">
+                            <button class="main__about-button button-blue">Shop Now
+                                <svg class='main__about-icon-arrow'>
+                                    <use href='./icon/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__categories">
+            <div class="main__categories-container container">
+                <div class="main__categories-body">
+                    <p class="main__categories-lable lable">Categories </p>
+                    <h2 class="main__categories-title title">Our Products</h2>
+                    <ul class="main__categories-list">
+                        <li class="main__categories-item">
+                            <a href="#" class="main__categories-link">
+                                <div class="main__categories-wrapper-tag">
+                                    <p class="main__categories-tag tag">Vegetable</p>
+                                </div>
+                                <img src="./img/card/broccoli.png" alt="Broccoli" class="main__categories-img">
+                                <p class="main__categories-name medium-text">Calabrese Broccoli</p>
+                                <span class="categories-line"></span>
+                                <div class="main__categories-wrapper">
+                                    <p class="main__categories-price-before">$20.00</p>
+                                    <p class="main__categories-price-after">$13.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__categories-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__categories-item">
+                            <a href="#" class="main__categories-link">
+                                <div class="main__categories-wrapper-tag">
+                                    <p class="main__categories-tag tag">Fresh</p>
+                                </div>
+                                <img src="./img/card/banana.png" alt="Banana" class="main__categories-img">
+                                <p class="main__categories-name medium-text">Fresh Banana Fruites</p>
+                                <span class="categories-line"></span>
+                                <div class="main__categories-wrapper">
+                                    <p class="main__categories-price-before">$20.00</p>
+                                    <p class="main__categories-price-after">$14.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__categories-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__categories-item">
+                            <a href="#" class="main__categories-link">
+                                <div class="main__categories-wrapper-tag">
+                                    <p class="main__categories-tag tag">Millets</p>
+                                </div>
+                                <img src="./img/card/nuts.png" alt="Nuts" class="main__categories-img">
+                                <p class="main__categories-name medium-text">White Nuts</p>
+                                <span class="categories-line"></span>
+                                <div class="main__categories-wrapper">
+                                    <p class="main__categories-price-before">$20.00</p>
+                                    <p class="main__categories-price-after">$15.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__categories-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__categories-item">
+                            <a href="#" class="main__categories-link">
+                                <div class="main__categories-wrapper-tag">
+                                    <p class="main__categories-tag tag">Vegetable</p>
+                                </div>
+                                <img src="./img/card/tomato.png" alt="Tomato" class="main__categories-img">
+                                <p class="main__categories-name medium-text">Vegan Red Tomato</p>
+                                <span class="categories-line"></span>
+                                <div class="main__categories-wrapper">
+                                    <p class="main__categories-price-before">$20.00</p>
+                                    <p class="main__categories-price-after">$17.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__categories-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__categories-item">
+                            <a href="#" class="main__categories-link">
+                                <div class="main__categories-wrapper-tag">
+                                    <p class="main__categories-tag tag">Health</p>
+                                </div>
+                                <img src="./img/card/bean.png" alt="Bean" class="main__categories-img">
+                                <p class="main__categories-name medium-text">Mung Bean</p>
+                                <span class="categories-line"></span>
+                                <div class="main__categories-wrapper">
+                                    <p class="main__categories-price-before">$20.00</p>
+                                    <p class="main__categories-price-after">$11.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__categories-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__categories-item">
+                            <a href="#" class="main__categories-link">
+                                <div class="main__categories-wrapper-tag">
+                                    <p class="main__categories-tag tag">Nuts</p>
+                                </div>
+                                <img src="./img/card/hazernuts.png" alt="Hazelnut" class="main__categories-img">
+                                <p class="main__categories-name medium-text">Brown Hazelnut</p>
+                                <span class="categories-line"></span>
+                                <div class="main__categories-wrapper">
+                                    <p class="main__categories-price-before">$20.00</p>
+                                    <p class="main__categories-price-after">$12.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__categories-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__categories-item">
+                            <a href="#" class="main__categories-link">
+                                <div class="main__categories-wrapper-tag">
+                                    <p class="main__categories-tag tag">Fresh</p>
+                                </div>
+                                <img src="./img/card/eggs.png" alt="Eggs" class="main__categories-img">
+                                <p class="main__categories-name medium-text">Eggs</p>
+                                <span class="categories-line"></span>
+                                <div class="main__categories-wrapper">
+                                    <p class="main__categories-price-before">$20.00</p>
+                                    <p class="main__categories-price-after">$17.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__categories-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__categories-item">
+                            <a href="#" class="main__categories-link">
+                                <div class="main__categories-wrapper-tag">
+                                    <p class="main__categories-tag tag">Fresh</p>
+                                </div>
+                                <img src="./img/card/bread.png" alt="bread" class="main__categories-img">
+                                <p class="main__categories-name medium-text">Zelco Suji Elaichi Rusk</p>
+                                <span class="categories-line"></span>
+                                <div class="main__categories-wrapper">
+                                    <p class="main__categories-price-before">$20.00</p>
+                                    <p class="main__categories-price-after">$15.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__categories-stars">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="main__categories-wrapper-button">
+                        <button class="main__categories-button button-blue">Load More
+                            <svg class='main__categories-icon-arrow'>
+                                <use href='./icon/sprite.svg#icon-arrow'></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__testimonial">
+            <div class="main__testimonial-container container">
+                <div class="main__testimonial-body">
+                    <p class="main__testimonial-lable lable">Testimonial</p>
+                    <h2 class="main__testimonial-title title">What Our Customer Saying?</h2>
+                    <ul class="main__testimonial-list">
+                        <li class="main__testimonial_item">
+                            <img src="./img/testimonial/photo.jpg" alt="photo" class="main__testimonial-photo">
+                            <img src="./icon/stars.svg" alt="stars" class="main__testimonial-stars">
+                            <p class="main__testimonial-text">Simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been.
+                            </p>
+                            <h3 class="main__testimonial-name subtitle">Sara Taylor</h3>
+                            <p class="main__testimonial-position">Consumer</p>
+                        </li>
+                        <!-- <li class="main__testimonial_item">
+                            <img src="" alt="" class="main__testimonial-photo">
+                            <img src="" alt="" class="main__testimonial-stars">
+                            <p class="main__testimonial-text"></p>
+                            <h3 class="main__testimonial-name subtitle"></h3>
+                            <p class="main__testimonial-position"></p>
+                        </li>
+                        <li class="main__testimonial_item">
+                            <img src="" alt="" class="main__testimonial-photo">
+                            <img src="" alt="" class="main__testimonial-stars">
+                            <p class="main__testimonial-text"></p>
+                            <h3 class="main__testimonial-name subtitle"></h3>
+                            <p class="main__testimonial-position"></p>
+                        </li> -->
+                    </ul>
+                    <span class="testimonial-line"></span>
+                    <ul class="main__testimonial-list-statistic">
+                        <li class="main__testimonial-item-statistic">
+                            <h2 class="main__testimonial-number-statistic title">100%</h2>
+                            <p class="main__testimonial-text-statistic">Organic</p>
+                        </li>
+                        <li class="main__testimonial-item-statistic">
+                            <h2 class="main__testimonial-number-statistic title">285</h2>
+                            <p class="main__testimonial-text-statistic">Active Product</p>
+                        </li>
+                        <li class="main__testimonial-item-statistic">
+                            <h2 class="main__testimonial-number-statistic title">350+</h2>
+                            <p class="main__testimonial-text-statistic">Organic Orchads</p>
+                        </li>
+                        <li class="main__testimonial-item-statistic">
+                            <h2 class="main__testimonial-number-statistic title">25+</h2>
+                            <p class="main__testimonial-text-statistic">Years of Farming</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main__offer">
+            <div class="main__offer-container container">
+                <div class="main__offer-body">
+                    <p class="main__offer-lable lable">Offer</p>
+                    <div class="main__offer-wrapper">
+                        <h2 class="main__offer-title title">We Offer Organic For You</h2>
+                        <div class="main__offer-wrapper-button">
+                            <button class="main__offer-button button-yellow">View All Product
+                                <svg class='main__offer-icon-arrow'>
+                                    <use href='./icon/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="main__offer-list">
+                        <li class="main__offer-item">
+                            <a href="#" class="main__offer-link">
+                                <div class="main__offer-wrapper-tag">
+                                    <p class="main__offer-tag tag">Vegetable</p>
+                                </div>
+                                <img src="./img/card/broccoli_big.jpg" alt="Mung Bean" class="main__offer-img">
+                                <p class="main__offer-name medium-text">Mung Bean</p>
+                                <span class="offer-line"></span>
+                                <div class="main__offer-wrapper-price">
+                                    <p class="main__offer-price-before">$20.00</p>
+                                    <p class="main__offer-price-after">$11.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__offer-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__offer-item">
+                            <a href="#" class="main__offer-link">
+                                <div class="main__offer-wrapper-tag">
+                                    <p class="main__offer-tag tag">Vegetable</p>
+                                </div>
+                                <img src="./img/card/zucchini.jpg" alt="Brown Hazelnut" class="main__offer-img">
+                                <p class="main__offer-name medium-text">Brown Hazelnut</p>
+                                <span class="offer-line"></span>
+                                <div class="main__offer-wrapper-price">
+                                    <p class="main__offer-price-before">$20.00</p>
+                                    <p class="main__offer-price-after">$12.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__offer-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__offer-item">
+                            <a href="#" class="main__offer-link">
+                                <div class="main__offer-wrapper-tag">
+                                    <p class="main__offer-tag tag">Vegetable</p>
+                                </div>
+                                <img src="./img/card/onion.jpg" alt="Onion" class="main__offer-img">
+                                <p class="main__offer-name medium-text">Onion</p>
+                                <span class="offer-line"></span>
+                                <div class="main__offer-wrapper-price">
+                                    <p class="main__offer-price-before">$20.00</p>
+                                    <p class="main__offer-price-after">$17.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__offer-stars">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="main__offer-item">
+                            <a href="#" class="main__offer-link">
+                                <div class="main__offer-wrapper-tag">
+                                    <p class="main__offer-tag tag">Vegetable</p>
+                                </div>
+                                <img src="./img/card/cabbage.jpg" alt="Cabbage" class="main__offer-img">
+                                <p class="main__offer-name medium-text">Cabbage</p>
+                                <span class="offer-line"></span>
+                                <div class="main__offer-wrapper-price">
+                                    <p class="main__offer-price-before">$20.00</p>
+                                    <p class="main__offer-price-after">$17.00</p>
+                                    <img src="./icon/stars.svg" alt="stars" class="main__offer-stars">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main__econis">
+            <div class="main__econis-container">
+                <div class="main__econis-body">
+                    <div class="main__econis-wrapper-img">
+                        <img src="./img/eco/fields.jpg" alt="fields" class="main__econis-img">
+                    </div>
+                    <div class="main__econis-content">
+                        <div class="main__econis-wrapper-content">
+                            <p class="main__econis-lable lable">Eco Friendly</p>
+                            <h2 class="main__econis-title title">Econis is a Friendly
+                                Organic Store
+                            </h2>
+                            <ul class="main__econis-list">
+                                <li class="main__econis-item">
+                                    <h3 class="main__econis-subtitle subtitle">Start with Our Company First</h3>
+                                    <p class="main__econis-text">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                    </p>
+                                </li>
+                                <li class="main__econis-item">
+                                    <h3 class="main__econis-subtitle subtitle">Learn How to Grow Yourself</h3>
+                                    <p class="main__econis-text">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                    </p>
+                                </li>
+                                <li class="main__econis-item">
+                                    <h3 class="main__econis-subtitle subtitle">Farming Strategies of Today</h3>
+                                    <p class="main__econis-text">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main__gallery">
+            <div class="main__gallery-container">
+                <div class="main__gallery-body">
+                    <ul class="main__gallery-list">
+                        <li class="main__gallery-item">
+                            <img src="./img/gallary/juice.jpg" alt="juice" class="main__gallery-img">
+                            <div class="main__gallery-button subtitle">Organic Juice</div>
+                        </li>
+                        <li class="main__gallery-item">
+                            <img src="./img/gallary/food.jpg" alt="food" class="main__gallery-img">
+                            <div class="main__gallery-button subtitle">Organic Food</div>
+                        </li>
+                        <li class="main__gallery-item">
+                            <img src="./img/gallary/cookis.jpg" alt="cookis" class="main__gallery-img">
+                            <div class="main__gallery-button subtitle">Nuts Cookis</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="main__news">
+            <div class="main__news-container container">
+                <div class="main__news-body">
+                    <p class="main__news-lable lable">News</p>
+                    <div class="main__news-wrapper">
+                        <h2 class="main__news-title title">Discover weekly content about organic food, & more</h2>
+                        <div class="main__news-wrapper-button">
+                            <button class="main__news-button button-white">More News
+                                <svg class='main__news-icon-arrow'>
+                                    <use href='./icon/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="main__news-list">
+                        <li class="main__news-item">
+                            <div class="main__news-wrapper-data">
+                                <p class="main__news-number subtitle">25</p>
+                                <p class="main__news-month medium-text">Nov</p>
+                            </div>
+                            <div class="main__news-wrapper-image">
+                                <img src="./img/news/vitamin.jpg" alt="cabbage leaves" class="main__news-img">
+                            </div>
+                            <div class="main__news-wrapper-item">
+                                <div class="main__news-wrapper-admin">
+                                    <svg class='main__news-admin-icon'>
+                                        <use href='./icon/sprite.svg#icon-person'></use>
+                                    </svg>
+                                    <p class="main__news-admin">By Rachi Card</p>
+                                </div>
+                                <a href="#" class="main__news-link">
+                                    <h3 class="main__news-subtitle subtitle">The Benefits of Vitamin D & How to Get It
+                                    </h3>
+                                </a>
+                                <p class="main__news-text">Simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum</p>
+                                <button class="main__news-item-button button-yellow">Read More
+                                    <svg class='main__news-icon-arrow'>
+                                        <use href='./icon/sprite.svg#icon-arrow'></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </li>
+                        <li class="main__news-item">
+                            <div class="main__news-wrapper-data">
+                                <p class="main__news-number subtitle">25</p>
+                                <p class="main__news-month medium-text">Nov</p>
+                            </div>
+                            <div class="main__news-wrapper-image">
+                                <img src="./img/news/tomato.jpg" alt="tomato" class="main__news-img">
+                            </div>
+                            <div class="main__news-wrapper-item">
+                                <div class="main__news-wrapper-admin">
+                                    <svg class='main__news-admin-icon'>
+                                        <use href='./icon/sprite.svg#icon-person'></use>
+                                    </svg>
+                                    <p class="main__news-admin">By Rachi Card</p>
+                                </div>
+                                <a href="#" class="main__news-link">
+                                    <h3 class="main__news-subtitle subtitle">Our Favourite Summertime Tommeto</h3>
+                                </a>
+                                <p class="main__news-text">Simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum</p>
+                                <button class="main__news-item-button button-yellow">Read More
+                                    <svg class='main__news-icon-arrow'>
+                                        <use href='./icon/sprite.svg#icon-arrow'></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe__container container">
+                <div class="subscribe__body">
+                    <h2 class="subscribe__title title">Subscribe to our Newsletter</h2>
+                    <form class="subscribe__form">
+                        <input type="email" class="subscribe__input" placeholder="Your Email Address" required>
+                        <button type="submit" class="subscribe__button button-blue">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__body">
+                <div class="footer__wrapper-contact">
+                    <h2 class="footer__contact-title">Contact Us</h2>
+                    <ul class="footer__contact-list">
+                        <li class="footer__contact-item">
+                            <h3 class="footer__item-title">Email</h3>
+                            <a href="mailto:needhelp@Organia.com" class="footer__contact-link">needhelp@Organia.com</a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <h3 class="footer__item-title">Phone</h3>
+                            <a href="tel:+1666888888" class="footer__contact-link">666 888 888</a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <h3 class="footer__item-title">Address</h3>
+                            <a href="https://www.google.com/maps/place/88th+St,+Brooklyn,+NY,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@40.6219333,-74.0337219,17z/data=!3m1!4b1!4m6!3m5!1s0x89c24f8a621ff737:0x63b87b08f5ac9099!8m2!3d40.6219293!4d-74.031147!16s%2Fg%2F1tm8fx3q?entry=ttu"
+                                target="_blank" class="footer__contact-link">88 road, borklyn street, USA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__wrapper-social">
+                    <a href="./index.html" class="footer__logo">
+                        <svg class="footer__logo-icon">
+                            <use href="./icon/sprite.svg#icon-logo"></use>
+                        </svg>
+                        Organick
+                    </a>
+                    <p class="footer__social-text">Simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum simply dummy text of the printing
+                    </p>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <svg class='footer__social-icon'>
+                                    <use href='./icon/sprite.svg#icon-inst'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://www.facebook.com/?locale=uk_UA" target="_blank"
+                                class="footer__social-link">
+                                <svg class='footer__social-icon'>
+                                    <use href='./icon/sprite.svg#icon-fb'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://twitter.com/?lang=uk" target="_blank" class="footer__social-link">
+                                <svg class='footer__social-icon'>
+                                    <use href='./icon/sprite.svg#icon-twit'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://ru.pinterest.com/" target="_blank" class="footer__social-link">
+                                <svg class='footer__social-icon'>
+                                    <use href='./icon/sprite.svg#icon-pin'></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__wrapper-utility">
+                    <h2 class="footer__utility-title">Utility Pages</h2>
+                    <ul class="footer__utility-list">
+                        <li class="footer__utility-item">
+                            <a href="#" class="footer__utility-link">Style Guide
+                            </a>
+                        </li>
+                        <li class="footer__utility-item">
+                            <a href="#" class="footer__utility-link">404 Not Found
+                            </a>
+                        </li>
+                        <li class="footer__utility-item">
+                            <a href="#" class="footer__utility-link">Password Protected
+                            </a>
+                        </li>
+                        <li class="footer__utility-item">
+                            <a href="#" class="footer__utility-link">Licences
+                            </a>
+                        </li>
+                        <li class="footer__utility-item">
+                            <a href="#" class="footer__utility-link">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer__line"></span>
+            <p class="footer__policy-text">Copyright &#169; <span class="strong">Organick</span> | Designed by <span class="strong">VictorFlow</span> Templates - Powered by <span class="strong">Webflow</span>
+            </p>
+        </div>
+    </footer>
+
+    <div class="backdrop">
+        <div class="modal__window">
+            <div class="modal__window-container">
+                <div class="modal__window-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
