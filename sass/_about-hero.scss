@@ -1,0 +1,62 @@
+.about__hero {
+    position: relative;
+    background-image: url('../img/hero/hero_about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.about__hero-img-garlic {
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    width: 140px;
+    height: 140px;
+}
+.about__hero-img-sead {
+    position: absolute;
+    bottom: 40px;
+    left: 35%;
+}
+.about__hero-img-many_leaf {
+    position: absolute;
+    bottom: -130px;
+    left: 19%;
+}
+.about__hero-img-sead_big {
+    position: absolute;
+    bottom: 20px;
+    right: 47%;
+}
+.about__hero-container {
+    position: relative;
+    padding-top: 184px;
+    padding-bottom: 184px;
+}
+.about__hero-img-decor {
+    position: absolute;
+    top: 0px;
+    left: 70%;
+    transform: rotate(90deg);
+    width: 140px;
+    height: 140px;
+}
+.about__hero-body {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1399.98px){
+    .about__hero-img-sead {
+        display: none;
+    }
+}
+@media screen and (max-width: 991.98px){
+    .about__hero-img-many_leaf {
+        display: none;
+    }
+}
+@media screen and (max-width: 479.98px){
+    .about__hero-img-decor {
+        display: none;
+    }
+}
