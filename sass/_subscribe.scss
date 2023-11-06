@@ -1,3 +1,6 @@
+.subscribe {
+    padding-top: 185px;
+}
 .subscribe__container {
     background-image: url('../img/subscribe/bg_img.jpg');
     background-position: center;
@@ -35,12 +38,26 @@
         border: 1px solid var(--white-color);
     }
 }
+@media screen and (max-width: 1199.98px){
+    .subscribe {
+        padding-top: 90px;
+    }
+    .subscribe__form {
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 991.98px){
+    .subscribe {
+        padding-top: 60px;
+    }
     .subscribe__form {
         flex-direction: column;
     }
 }
 @media screen and (max-width: 767.98px){
+    .subscribe {
+        padding-top: 20px;
+    }
     .subscribe__body {
         flex-direction: column;
         row-gap: 20px;
