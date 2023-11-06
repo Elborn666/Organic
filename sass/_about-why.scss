@@ -13,21 +13,15 @@
 .about__why-content {
     width: 50%;
 }
-.about__why-lable {
-}
 .about__why-title {
     max-width: 524px;
     margin-bottom: 25px;
-}
-.about__why-text {
 }
 .about__why-content-list {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
     margin-top: 36px;
-}
-.about__why-content-item {
 }
 .about__why-button {
     display: flex;
@@ -93,8 +87,6 @@
     margin-bottom: 35px;
     border-radius: 18px;
     background-color: var(--light-grey-color);
-}
-.about__why-img {
 }
 .about__why-subtitle {
     margin-bottom: 12px;

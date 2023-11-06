@@ -1809,6 +1809,123 @@ a {
     margin-bottom: 10px;
   }
 }
+.about__team-container {
+  padding-top: 177px;
+  padding-bottom: 200px;
+}
+
+.about__team-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__team-title {
+  margin-bottom: 16px;
+}
+
+.about__team-text {
+  max-width: 852px;
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.about__team-list {
+  display: flex;
+  column-gap: 27px;
+  row-gap: 20px;
+}
+
+.about__team-item {
+  max-width: 449px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: filter 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about__team-item:hover {
+  filter: drop-shadow(0px 29px 44px rgba(150, 150, 150, 0.25));
+}
+
+.about__team-wrapper-image {
+  overflow: hidden;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.about__team-img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 20px 20px 0px 0px;
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about__team-img:hover {
+  transform: scale(1.1);
+}
+
+.about__team-thumb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 35px 35px 28px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: var(--light-grey-color);
+}
+
+.about__team-list-social {
+  display: flex;
+}
+
+.about__team-item-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--light-grey-color);
+  transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about__team-item-social:hover {
+  background-color: var(--button-color);
+}
+
+.about__team-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__team-icon {
+  width: 22px;
+  height: 22px;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .about__team-container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .about__team-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about__team-list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .about__team-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about__team-thumb {
+    padding: 15px;
+  }
+}
 .subscribe__container {
   background-image: url("../img/subscribe/bg_img.jpg");
   background-position: center;
