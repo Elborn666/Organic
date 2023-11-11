@@ -1,53 +1,57 @@
-.shop__hero {
+.single__hero {
     position: relative;
-    background-image: url('../img/hero/hero_shop.jpg');
+    background-image: url('../img/hero/hero_single.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
-.shop__hero-img-garlic {
+.single__hero-img-garlic {
     position: absolute;
     top: 20px;
-    left: 37%;
+    right: 28%;
     width: 140px;
     height: 140px;
 }
-.shop__hero-img-sead {
+.single__hero-img-sead {
     position: absolute;
-    bottom: 42px;
-    left: 37%;
+    top: 40px;
+    left: 35%;
 }
-.shop__hero-img-sead_big {
+.single__hero-img-many_leaf {
+    position: absolute;
+    bottom: -130px;
+    left: 19%;
+}
+.single__hero-img-sead_big {
     position: absolute;
     bottom: 20px;
-    right: 46%;
+    right: 47%;
 }
-.shop__hero-container {
+.single__hero-container {
     position: relative;
     padding-top: 184px;
     padding-bottom: 184px;
 }
-.shop__hero-img-decor {
+.single__hero-img-decor {
     position: absolute;
-    top: -10px;
-    left: 67%;
+    bottom: 0px;
+    left: 77%;
     transform: rotate(90deg);
     width: 140px;
     height: 140px;
 }
-.shop__hero-body {
+.single__hero-body {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-@media screen and (max-width: 1439.98px){
-    .shop__hero-img-sead {
+@media screen and (max-width: 991.98px){
+    .single__hero-img-sead {
         display: none;
     }
 }
 @media screen and (max-width: 479.98px){
-    .shop__hero-img-decor {
+    .single__hero-img-decor {
         display: none;
     }
 }
