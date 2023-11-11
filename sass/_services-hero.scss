@@ -1,0 +1,52 @@
+.services__hero {
+    position: relative;
+    background-image: url('../img/hero/hero_services.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.services__hero-img-garlic {
+    position: absolute;
+    top: 20px;
+    right: 58%;
+    width: 140px;
+    height: 140px;
+}
+.services__hero-img-sead {
+    position: absolute;
+    top: 40px;
+    left: 14%;
+}
+.services__hero-img-many_leaf {
+    position: absolute;
+    bottom: -130px;
+    left: 19%;
+}
+.services__hero-img-sead_big {
+    position: absolute;
+    bottom: 20px;
+    right: 30%;
+}
+.services__hero-container {
+    position: relative;
+    padding-top: 184px;
+    padding-bottom: 184px;
+}
+.services__hero-img-decor {
+    position: absolute;
+    top: 0px;
+    left: 68%;
+    transform: rotate(90deg);
+    width: 140px;
+    height: 140px;
+}
+.services__hero-body {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 991.98px){
+    .services__hero-img-sead {
+        display: none;
+    }
+}
