@@ -2015,6 +2015,71 @@ a {
     text-align: center;
   }
 }
+.shop__hero {
+  position: relative;
+  background-image: url("../img/hero/hero_shop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.shop__hero-img-garlic {
+  position: absolute;
+  top: 20px;
+  left: 37%;
+  width: 140px;
+  height: 140px;
+}
+
+.shop__hero-img-sead {
+  position: absolute;
+  bottom: 42px;
+  left: 37%;
+}
+
+.shop__hero-img-sead_big {
+  position: absolute;
+  bottom: 20px;
+  right: 46%;
+}
+
+.shop__hero-container {
+  position: relative;
+  padding-top: 184px;
+  padding-bottom: 184px;
+}
+
+.shop__hero-img-decor {
+  position: absolute;
+  top: -10px;
+  left: 67%;
+  transform: rotate(90deg);
+  width: 140px;
+  height: 140px;
+}
+
+.shop__hero-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1439.98px) {
+  .shop__hero-img-sead {
+    display: none;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .shop__hero-img-many_leaf {
+    display: none;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .shop__hero-img-decor {
+    display: none;
+  }
+}
 .subscribe {
   padding-top: 185px;
 }
