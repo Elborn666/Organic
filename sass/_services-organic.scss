@@ -1,0 +1,31 @@
+.services__organic {
+    background-image: url('../img/bg/bg_services.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services__organic-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 179px;
+    padding-bottom: 538px;
+}
+.services__organic-title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+.services__organic-text {
+    max-width: 650px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.services__organic-player {
+    cursor: pointer;
+}
+@media screen and (max-width: 991.98px){
+    .services__organic-body {
+        padding-bottom: 338px;
+    }
+}
