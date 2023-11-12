@@ -1,0 +1,30 @@
+.quality__hero {
+    position: relative;
+    background-image: url('../img/hero/quality.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.quality__hero-img-sead {
+    position: absolute;
+    top: 110px;
+    left: 25%;
+}
+.quality__hero-img-sead_big {
+    position: absolute;
+    bottom: 57px;
+    right: 27%;
+    stroke: #7DCAC9;
+}
+.quality__hero-container {
+    position: relative;
+    padding-top: 184px;
+    padding-bottom: 184px;
+    fill: #7DCAC9;
+}
+.quality__hero-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
