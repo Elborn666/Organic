@@ -1,0 +1,36 @@
+.portfolio__hero {
+    position: relative;
+    background-image: url('../img/hero/hero_portfolio.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.portfolio__hero-img-garlic {
+    position: absolute;
+    bottom: 35px;
+    right: 65%;
+    width: 140px;
+    height: 140px;
+}
+.portfolio__hero-img-sead {
+    position: absolute;
+    top: 115px;
+    left: 25%;
+}
+.portfolio__hero-img-sead_big {
+    position: absolute;
+    bottom: 85px;
+    right: 25%;
+    width: 121px;
+    height: 121px;
+}
+.portfolio__hero-container {
+    position: relative;
+    padding-top: 184px;
+    padding-bottom: 184px;
+}
+.portfolio__hero-body {
+    display: flex;
+    justify-content: center;
+}
