@@ -3292,6 +3292,43 @@ a {
     margin-top: -75px;
   }
 }
+.team__hero {
+  position: relative;
+  background-image: url("../img/hero/hero_team.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.team__hero-img-sead {
+  position: absolute;
+  top: 120px;
+  left: 25%;
+}
+
+.team__hero-img-sead_big {
+  position: absolute;
+  top: 110px;
+  right: 26%;
+}
+
+.team__hero-container {
+  position: relative;
+  padding-top: 184px;
+  padding-bottom: 184px;
+}
+
+.team__hero-body {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767.98px) {
+  .team__hero-img-sead_big {
+    display: none;
+  }
+}
 .subscribe {
   padding-top: 185px;
 }
