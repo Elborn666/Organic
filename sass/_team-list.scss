@@ -1,0 +1,111 @@
+.team__list-container {
+    padding-top: 150px;
+}
+.team__list-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team__list-title {
+    margin-bottom: 16px;
+}
+.team__list-text {
+    max-width: 852px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+.team__list-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 27px;
+    row-gap: 20px;
+}
+.team__list-item {
+    max-width: 448px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: filter 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        filter: drop-shadow(0px 29px 44px rgba(150, 150, 150, 0.25));
+    }
+}
+.team__list-wrapper-image {
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+.team__list-img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 20px 20px 0px 0px;
+    transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.team__list-thumb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 35px 35px 28px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: var(--light-grey-color);
+}
+.team__list-position {
+    font-size: 22px;
+}
+.team__list-list-social {
+    display: flex;
+}
+.team__list-item-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--light-grey-color);
+    transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        background-color: var(--button-color);
+    }
+}
+.team__list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team__list-icon {
+    width: 22px;
+    height: 22px;
+}
+@media screen and (max-width: 1199.98px){
+    .team__list-container {
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width: 991.98px){
+    .team__list-container {
+        padding-top: 60px;
+    }
+    .team__list-list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .team__list-container {
+        padding-top: 20px;
+    }
+    .team__list-thumb {
+        padding: 15px;
+    }
+    .team__list-list {
+        row-gap: 10px;
+    }
+    .team__list-text {
+        margin-bottom: 20px;
+    }
+}
