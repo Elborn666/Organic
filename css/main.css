@@ -3162,6 +3162,136 @@ a {
   object-fit: cover;
 }
 
+.portfolio__single-body {
+  max-width: 936px;
+  margin: 0 auto;
+  margin-top: 68px;
+}
+
+.portfolio__single-header {
+  position: relative;
+  z-index: 10;
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px 30px 0px 0px;
+  background-color: var(--white-color);
+}
+
+.portfolio__single-wrapper {
+  max-width: 726px;
+  padding: 96px 82px;
+}
+
+.portfolio__single-title {
+  margin-bottom: 20px;
+}
+
+.portfolio__single-list {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  row-gap: 18px;
+  max-width: 509px;
+  padding: 106px 111px;
+}
+
+.portfolio__single-item {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio__single-indicator {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--title-color);
+}
+
+.portfolio__single-value {
+  margin-left: 5px;
+}
+
+.portfolio__single-wrapper-about {
+  margin-bottom: 40px;
+}
+
+.portfolio__single-subtitle {
+  margin-bottom: 24px;
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: 800;
+  line-height: normal;
+  color: var(--title-color);
+}
+
+.portfolio__single-wrapper-image {
+  margin: 0px;
+}
+
+.portfolio__single-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.portfolio__single-sign {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.portfolio__single-wrapper-how {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1299.98px) {
+  .portfolio__single-wrapper {
+    padding: 40px 40px;
+  }
+  .portfolio__single-list {
+    padding: 55px 55px 55px 0px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .portfolio__single-body {
+    margin-top: 20px;
+  }
+  .portfolio__single-wrapper-about {
+    margin-bottom: 20px;
+  }
+  .portfolio__single-subtitle {
+    margin-bottom: 10px;
+  }
+  .portfolio__single-wrapper-how {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .portfolio__single-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio__single-wrapper {
+    padding: 20px;
+  }
+  .portfolio__single-subtitle {
+    font-size: 28px;
+  }
+  .portfolio__single-list {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .portfolio__single-header {
+    margin-top: -75px;
+  }
+}
 .subscribe {
   padding-top: 185px;
 }
