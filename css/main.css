@@ -3961,10 +3961,7 @@ a {
 }
 
 .contact__main-item {
-  display: flex;
-  align-items: center;
   padding: 12px;
-  column-gap: 19px;
   width: 352px;
   border-radius: 16px;
   border: 1px solid #EEE;
@@ -3973,6 +3970,17 @@ a {
 }
 .contact__main-item:hover {
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.contact__main-item:hover .contact__main-email,
+.contact__main-item:hover .contact__main-tell {
+  color: var(--green-color);
+}
+
+.contact__main-item-link {
+  display: flex;
+  align-items: center;
+  column-gap: 19px;
 }
 
 .contact__main-bg-color {
@@ -3994,10 +4002,6 @@ a {
 .contact__main-tell {
   color: var(--general-color);
   transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact__main-email:hover,
-.contact__main-tell:hover {
-  color: var(--green-color);
 }
 
 .contact__main-social-list {
