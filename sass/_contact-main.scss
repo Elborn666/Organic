@@ -129,6 +129,12 @@
     .contact__main-content {
         width: 100%;
     }
+    .contact__main-list {
+        align-items: center;
+    }
+    .contact__main-social-list {
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 767.98px){
     .contact__main-container{

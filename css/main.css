@@ -4065,6 +4065,12 @@ a {
   .contact__main-content {
     width: 100%;
   }
+  .contact__main-list {
+    align-items: center;
+  }
+  .contact__main-social-list {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 767.98px) {
   .contact__main-container {
@@ -4193,6 +4199,108 @@ a {
   }
   .contact__address-body {
     left: 0px;
+  }
+}
+.contact__form-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 46px;
+}
+
+.contact__form-label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--title-color);
+}
+
+.contact__form-input {
+  width: 569px;
+  height: 80px;
+  margin-top: 26px;
+  padding-left: 23px;
+  border-radius: 16px;
+  border: 1px solid var(--green-color);
+}
+.contact__form-input::placeholder {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  color: #ABABAB;
+}
+
+.contact__form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  row-gap: 60px;
+}
+
+.contact__form-msg {
+  margin-top: 26px;
+  padding: 28px 26px;
+  width: 1184px;
+  height: 247px;
+  resize: none;
+  border-radius: 16px;
+  border: 1px solid var(--green-color);
+}
+.contact__form-msg::placeholder {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  color: #ABABAB;
+}
+
+.contact__form-button {
+  padding: 28px 47px;
+  transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact__form-button:hover {
+  background-color: var(--white-color);
+  color: var(--title-color);
+}
+
+@media screen and (max-width: 1213.98px) {
+  .contact__form-msg {
+    width: 569px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .contact__form-form {
+    row-gap: 20px;
+  }
+  .contact__form-input,
+.contact__form-msg {
+    margin-top: 15px;
+  }
+  .contact__form-wrapper {
+    row-gap: 30px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .contact__form-input,
+.contact__form-msg {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .contact__form-input,
+.contact__form-msg {
+    width: 280px;
+  }
+  .contact__form-wrapper-button {
+    display: flex;
+    justify-content: center;
   }
 }
 .subscribe {
