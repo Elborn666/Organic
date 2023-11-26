@@ -37,7 +37,15 @@
     column-gap: 15px;
 }
 .about__us-button {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
     padding: 29px 39px;
+    transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        color: var(--title-color);
+        background-color: var(--white-color);
+    }
 }
 @media screen and (max-width: 1199.98px){
     .about__us-container {

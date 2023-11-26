@@ -13,6 +13,9 @@
     column-gap: 15px;
 }
 .header__logo {
+    position: relative;
+    z-index: 25;
+
     display: flex;
     align-items: center;
     column-gap: 8px;
@@ -140,6 +143,8 @@
 }
 .header__burger-icon {
     display: none;
+    width: 40px;
+    height: 40px;
 }
 .burger-icon {
     width: 40px;
@@ -171,11 +176,16 @@
     }
 }
 @media screen and (max-width: 1169.98px){
-    .header__nav {
+    .header__search {
         display: none;
     }
     .header__logo {
         margin-right: auto;
+    }
+}
+@media screen and (max-width: 991.98px){
+    .header__nav {
+        display: none;
     }
     .header__burger-icon {
         display: block;

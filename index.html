@@ -56,34 +56,48 @@
                         <p class="header__text">Cart (<span>0</span>)</p>
                     </div>
                 </div>
-                <div class="header__burger-icon">
+                <div class="header__burger-icon js-burger-open">
                     <svg class='burger-icon'>
                         <use href='./icon/sprite.svg#icon-burger'></use>
                     </svg>
                 </div>
-                <div class="burger__menu">
+                <div class="burger__icon-close js-burger-close">
+                    <svg class='burger-close'>
+                        <use href='./icon/sprite.svg#icon-cross'></use>
+                    </svg>
+                </div>
+                <div class="burger__menu js-burger-menu">
                     <div class="burger__container">
                         <div class="burger__body">
                             <nav class="burger__nav">
                                 <ul class="burger__list">
-                                    <li class="burger__item"><a href="./index.html" class="burger__link">Home</a></li>
-                                    <li class="burger__item"><a href="./about.html" class="burger__link">About</a></li>
+                                    <li class="burger__item"><a href="./index.html"
+                                            class="burger__link js-burger-link">Home</a></li>
+                                    <li class="burger__item"><a href="./about.html"
+                                            class="burger__link js-burger-link">About</a></li>
                                     <li class="burger__item"><a href="" class="burger__link">Pages</a></li>
-                                    <li class="burger__item"><a href="./shop.html" class="burger__link">Shop</a></li>
-                                    <li class="burger__item"><a href="" class="burger__link">Projects</a></li>
-                                    <li class="burger__item"><a href="./news.html" class="burger__link">News</a></li>
+                                    <li class="burger__item"><a href="./shop.html"
+                                            class="burger__link js-burger-link">Shop</a></li>
+                                    <li class="burger__item"><a href="" class="burger__link js-burger-link">Projects</a>
+                                    </li>
+                                    <li class="burger__item"><a href="./news.html"
+                                            class="burger__link js-burger-link">News</a></li>
                                 </ul>
                             </nav>
                             <div class="burger__search">
-                                <svg class='burger__icon-search'>
-                                    <use href='./icon/sprite.svg#icon-search'></use>
-                                </svg>
+                                <div class="burger__wrapper-search">
+                                    <svg class='burger__icon-search'>
+                                        <use href='./icon/sprite.svg#icon-search'></use>
+                                    </svg>
+                                </div>
                                 <input type="text" class="burger__input">
                             </div>
                             <div class="burger__cart">
-                                <svg class='burger__icon-cart'>
-                                    <use href='./icon/sprite.svg#icon-cart'></use>
-                                </svg>
+                                <div class="burger__wrapper-cart">
+                                    <svg class='burger__icon-cart'>
+                                        <use href='./icon/sprite.svg#icon-cart'></use>
+                                    </svg>
+                                </div>
                                 <p class="burger__text">Cart (<span>0</span>)</p>
                             </div>
                         </div>
@@ -110,11 +124,13 @@
                         <h1 class="hero__title general-title">Choose the best
                             healthier way of life</h1>
                         <div class="hero__wrapper-button">
-                            <button class="hero__button button-yellow">Explore Now
-                                <svg class='hero__icon-arrow'>
-                                    <use href='./icon/sprite.svg#icon-arrow'></use>
-                                </svg>
-                            </button>
+                            <a href="#" class="hero__button-link">
+                                <button class="hero__button button-yellow">Explore Now
+                                    <svg class='hero__icon-arrow'>
+                                        <use href='./icon/sprite.svg#icon-arrow'></use>
+                                    </svg>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -125,18 +141,22 @@
                 <div class="main__banner-body">
                     <ul class="main__banner-list">
                         <li class="main__banner-item left">
-                            <img src="./img/action/banan.webp" alt="banan" class="main__banner-img">
-                            <div class="main__banner-wrapper-left">
-                                <p class="main__banner-lable-left lable">Natural!!</p>
-                                <h2 class="main__banner-title">Get Garden Fresh Fruits</h2>
-                            </div>
+                            <a href="#" class="main__banner-link">
+                                <img src="./img/action/banan.webp" alt="banan" class="main__banner-img">
+                                <div class="main__banner-wrapper-left">
+                                    <p class="main__banner-lable-left lable">Natural!!</p>
+                                    <h2 class="main__banner-title">Get Garden Fresh Fruits</h2>
+                                </div>
+                            </a>
                         </li>
                         <li class="main__banner-item right">
-                            <img src="./img/action/apricot.webp" alt="apricot" class="main__banner-img">
-                            <div class="main__banner-wrapper-right">
-                                <p class="main__banner-lable-right lable">Offer!!</p>
-                                <h2 class="main__banner-title">Get 10% off on Vegetables</h2>
-                            </div>
+                            <a href="#" class="main__banner-link">
+                                <img src="./img/action/apricot.webp" alt="apricot" class="main__banner-img">
+                                <div class="main__banner-wrapper-right">
+                                    <p class="main__banner-lable-right lable">Offer!!</p>
+                                    <h2 class="main__banner-title">Get 10% off on Vegetables</h2>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -177,11 +197,13 @@
                             </li>
                         </ul>
                         <div class="main__about-wrapper-button">
-                            <button class="main__about-button button-blue">Shop Now
-                                <svg class='main__about-icon-arrow'>
-                                    <use href='./icon/sprite.svg#icon-arrow'></use>
-                                </svg>
-                            </button>
+                            <a href="./shop.html" class="main__about-link">
+                                <button class="main__about-button button-blue">Shop Now
+                                    <svg class='main__about-icon-arrow'>
+                                        <use href='./icon/sprite.svg#icon-arrow'></use>
+                                    </svg>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -315,11 +337,13 @@
                         </li>
                     </ul>
                     <div class="main__categories-wrapper-button">
-                        <button class="main__categories-button button-blue">Load More
-                            <svg class='main__categories-icon-arrow'>
-                                <use href='./icon/sprite.svg#icon-arrow'></use>
-                            </svg>
-                        </button>
+                        <a href="./shop.html" class="main__categories-link">
+                            <button class="main__categories-button button-blue">Load More
+                                <svg class='main__categories-icon-arrow'>
+                                    <use href='./icon/sprite.svg#icon-arrow'></use>
+                                </svg>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -384,11 +408,13 @@
                     <div class="main__offer-wrapper">
                         <h2 class="main__offer-title title">We Offer Organic For You</h2>
                         <div class="main__offer-wrapper-button">
-                            <button class="main__offer-button button-yellow">View All Product
-                                <svg class='main__offer-icon-arrow'>
-                                    <use href='./icon/sprite.svg#icon-arrow'></use>
-                                </svg>
-                            </button>
+                            <a href="./shop.html" class="main__offer-link">
+                                <button class="main__offer-button button-yellow">View All Product
+                                    <svg class='main__offer-icon-arrow'>
+                                        <use href='./icon/sprite.svg#icon-arrow'></use>
+                                    </svg>
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <ul class="main__offer-list">
@@ -520,11 +546,13 @@
                     <div class="main__news-wrapper">
                         <h2 class="main__news-title title">Discover weekly content about organic food, & more</h2>
                         <div class="main__news-wrapper-button">
-                            <button class="main__news-button button-white">More News
-                                <svg class='main__news-icon-arrow'>
-                                    <use href='./icon/sprite.svg#icon-arrow'></use>
-                                </svg>
-                            </button>
+                            <a href="./news.html" class="main__news-link">
+                                <button class="main__news-button button-white">More News
+                                    <svg class='main__news-icon-arrow'>
+                                        <use href='./icon/sprite.svg#icon-arrow'></use>
+                                    </svg>
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <ul class="main__news-list">
@@ -549,11 +577,13 @@
                                 </a>
                                 <p class="main__news-text">Simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum</p>
-                                <button class="main__news-item-button button-yellow">Read More
-                                    <svg class='main__news-icon-arrow'>
-                                        <use href='./icon/sprite.svg#icon-arrow'></use>
-                                    </svg>
-                                </button>
+                                <a href="#" class="main__news-link">
+                                    <button class="main__news-item-button button-yellow">Read More
+                                        <svg class='main__news-icon-arrow'>
+                                            <use href='./icon/sprite.svg#icon-arrow'></use>
+                                        </svg>
+                                    </button>
+                                </a>
                             </div>
                         </li>
                         <li class="main__news-item">
@@ -576,11 +606,13 @@
                                 </a>
                                 <p class="main__news-text">Simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum</p>
-                                <button class="main__news-item-button button-yellow">Read More
-                                    <svg class='main__news-icon-arrow'>
-                                        <use href='./icon/sprite.svg#icon-arrow'></use>
-                                    </svg>
-                                </button>
+                                <a href="#" class="main__news-link">
+                                    <button class="main__news-item-button button-yellow">Read More
+                                        <svg class='main__news-icon-arrow'>
+                                            <use href='./icon/sprite.svg#icon-arrow'></use>
+                                        </svg>
+                                    </button>
+                                </a>
                             </div>
                         </li>
                     </ul>
@@ -706,6 +738,7 @@
     </div>
 
 
+    <script src="./js/burger-menu.js" type="module"></script>
 </body>
 
 </html>
