@@ -454,44 +454,62 @@ a {
   background-size: cover;
 }
 
-.hero__img-garlic {
+.garlic {
   position: absolute;
   top: 20px;
   left: 20px;
+  width: 188px;
+  height: 172px;
+  fill: #E1D4DB;
 }
 
-.hero__img-sead {
+.sead {
   position: absolute;
   top: 220px;
   left: 135px;
+  width: 69px;
+  height: 78px;
+  fill: #E1D4DB;
 }
 
-.hero__img-many_leaf {
+.many_leaf {
   position: absolute;
   bottom: 20px;
   left: 0px;
+  width: 300px;
+  height: 300px;
+  fill: #D7D7D7;
 }
 
-.hero__img-sead_big {
+.sead_big {
   position: absolute;
   top: 0px;
   right: 135px;
+  width: 121px;
+  height: 88px;
+  fill: #DBDBDB;
 }
 
-.hero__img-leaf {
+.leaf {
   position: absolute;
   top: 0px;
   right: 0px;
+  width: 254px;
+  height: 283px;
+  fill: #DBDBDB;
+}
+
+.strawberry {
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  width: 128px;
+  height: 139px;
+  fill: #D3CBCF;
 }
 
 .hero__container {
   position: relative;
-}
-
-.hero__img-decor {
-  position: absolute;
-  top: 50px;
-  left: 40%;
 }
 
 .hero__content {
