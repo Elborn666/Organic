@@ -1,7 +1,7 @@
-const backdrop = document.querySelector('.backdrop__subscribe')
+const backdrop = document.querySelector('.js-backdrop-subscribe')
 const body = document.querySelector('body')
-const subscribeForm = document.querySelector('.subscribe__form')
-const buttonCloseModal = document.querySelector('.modal__subscribe-button')
+const subscribeForm = document.querySelector('.js-subscribe-form')
+const buttonCloseModal = document.querySelector('.js-button-subscribe')
 
 
 buttonCloseModal.addEventListener('click', onBtnClose)

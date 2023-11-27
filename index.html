@@ -623,7 +623,7 @@
             <div class="subscribe__container container">
                 <div class="subscribe__body">
                     <h2 class="subscribe__title title">Subscribe to our Newsletter</h2>
-                    <form class="subscribe__form">
+                    <form class="subscribe__form js-subscribe-form">
                         <input type="email" class="subscribe__input" placeholder="Your Email Address" required>
                         <button type="submit" class="subscribe__button button-blue">Subscribe</button>
                     </form>
@@ -727,11 +727,13 @@
         </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop js-backdrop-subscribe">
         <div class="modal__window">
             <div class="modal__window-container">
                 <div class="modal__window-body">
-
+                    <h2 class="modal__title title">Successfully!</h2>
+                    <p class="modal__text">You have successfully subscribed.</p>
+                    <button type="button" class="modal__button button-blue js-button-subscribe">Ok</button>
                 </div>
             </div>
         </div>
@@ -739,6 +741,7 @@
 
 
     <script src="./js/burger-menu.js" type="module"></script>
+    <script src="./js/subscribe.js" type="module"></script>
 </body>
 
 </html>
