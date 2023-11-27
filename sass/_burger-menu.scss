@@ -40,15 +40,10 @@
     height: 20px;
     fill: var(--title-color);
 }
-.burger__nav {
-}
 .burger__list {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-}
-.burger__item {
-   
 }
 .burger__link {
     font-family: "Roboto";
