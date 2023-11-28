@@ -39,3 +39,16 @@
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 991.98px){
+    .portfolio__hero {
+        background-position: right;
+    }
+    .portfolio__hero-garlic,
+    .portfolio__hero-sead,
+    .portfolio__hero-sead_big {
+        display: none;
+    }
+    .portfolio__hero-title {
+        color: var(--yellow-color);
+    }
+}

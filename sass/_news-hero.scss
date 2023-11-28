@@ -41,12 +41,17 @@
     justify-content: center;
 }
 @media screen and (max-width: 991.98px){
-    .news__hero-sead_big {
+    .news__hero {
+        background-position: left;
+    }
+    .news__hero-sead_big,
+    .news__hero-garlic,
+    .news__hero-sead {
         display: none;
     }
 }
 @media screen and (max-width: 479.98px){
-    .news__hero-garlic {
-        display: none;
+    .news__hero-title {
+        color: var(--yellow-color);
     }
 }

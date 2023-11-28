@@ -49,12 +49,13 @@
     justify-content: center;
 }
 @media screen and (max-width: 991.98px){
-    .single__hero-sead {
-        display: none;
+    .single__hero {
+        background-position: left;
     }
-}
-@media screen and (max-width: 479.98px){
-    .single__hero-strawberry {
+    .single__hero-garlic,
+    .single__hero-sead_big,
+    .single__hero-strawberry,
+    .single__hero-sead {
         display: none;
     }
 }
