@@ -6,42 +6,50 @@
     background-size: cover;
     overflow: hidden;
 }
-.services__hero-img-garlic {
+.services__hero-garlic {
     position: absolute;
     top: 20px;
-    right: 58%;
+    right: 57%;
     width: 140px;
     height: 140px;
+    fill: #D1D1D1;
 }
-.services__hero-img-sead {
+.services__hero-sead {
     position: absolute;
     top: 40px;
-    left: 14%;
+    left: 23%;
+    width: 90px;
+    height: 90px;
+    fill: #E1D4DB;
 }
-.services__hero-img-sead_big {
+.services__hero-sead_big {
     position: absolute;
     bottom: 20px;
-    right: 30%;
+    right: 36%;
+    width: 130px;
+    height: 130px;
+    fill: #D1D1D1;
+}
+.services__hero-strawberry {
+    position: absolute;
+    top: 0px;
+    left: 63%;
+    transform: rotate(90deg);
+    width: 120px;
+    height: 120px;
+    fill: #D3CBCF;
 }
 .services__hero-container {
     position: relative;
     padding-top: 184px;
     padding-bottom: 184px;
 }
-.services__hero-img-decor {
-    position: absolute;
-    top: 0px;
-    left: 68%;
-    transform: rotate(90deg);
-    width: 140px;
-    height: 140px;
-}
 .services__hero-body {
     display: flex;
     justify-content: center;
 }
 @media screen and (max-width: 991.98px){
-    .services__hero-img-sead {
+    .services__hero-sead {
         display: none;
     }
 }

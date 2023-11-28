@@ -6,15 +6,21 @@
     background-size: cover;
     overflow: hidden;
 }
-.team__hero-img-sead {
+.team__hero-sead {
     position: absolute;
     top: 120px;
     left: 25%;
+    width: 90px;
+    height: 90px;
+    fill: #DDAB84;
 }
-.team__hero-img-sead_big {
+.team__hero-sead_big {
     position: absolute;
     top: 110px;
     right: 26%;
+    width: 130px;
+    height: 130px;
+    fill: #DDAB84;
 }
 .team__hero-container {
     position: relative;
@@ -26,7 +32,7 @@
     justify-content: center;
 }
 @media screen and (max-width: 767.98px){
-    .team__hero-img-sead_big {
+    .team__hero-sead_big {
         display: none;
     }
 }

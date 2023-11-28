@@ -6,24 +6,29 @@
     background-size: cover;
     overflow: hidden;
 }
-.portfolio__hero-img-garlic {
+.portfolio__hero-garlic {
     position: absolute;
     bottom: 35px;
     right: 65%;
     width: 140px;
     height: 140px;
+    fill: #D1D1D1;
 }
-.portfolio__hero-img-sead {
+.portfolio__hero-sead {
     position: absolute;
     top: 115px;
     left: 25%;
+    width: 90px;
+    height: 90px;
+    fill: #7DCAC9;
 }
-.portfolio__hero-img-sead_big {
+.portfolio__hero-sead_big {
     position: absolute;
     bottom: 85px;
     right: 25%;
-    width: 121px;
-    height: 121px;
+    width: 140px;
+    height: 140px;
+    fill: #83C5C4;
 }
 .portfolio__hero-container {
     position: relative;

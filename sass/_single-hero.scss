@@ -6,52 +6,55 @@
     background-size: cover;
     overflow: hidden;
 }
-.single__hero-img-garlic {
+.single__hero-garlic {
     position: absolute;
     top: 20px;
     right: 28%;
     width: 140px;
     height: 140px;
+    fill: #D1D1D1;
 }
-.single__hero-img-sead {
+.single__hero-sead {
     position: absolute;
     top: 40px;
     left: 35%;
+    width: 90px;
+    height: 90px;
+    fill: #E1D4DB;
 }
-.single__hero-img-many_leaf {
-    position: absolute;
-    bottom: -130px;
-    left: 19%;
-}
-.single__hero-img-sead_big {
+.single__hero-sead_big {
     position: absolute;
     bottom: 20px;
     right: 47%;
+    width: 120px;
+    height: 120px;
+    fill: #DDD9DA;
+}
+.single__hero-strawberry {
+    position: absolute;
+    bottom: 0px;
+    left: 72%;
+    transform: rotate(90deg);
+    width: 120px;
+    height: 120px;
+    fill: #D3CBCF;
 }
 .single__hero-container {
     position: relative;
     padding-top: 184px;
     padding-bottom: 184px;
 }
-.single__hero-img-decor {
-    position: absolute;
-    bottom: 0px;
-    left: 77%;
-    transform: rotate(90deg);
-    width: 140px;
-    height: 140px;
-}
 .single__hero-body {
     display: flex;
     justify-content: center;
 }
 @media screen and (max-width: 991.98px){
-    .single__hero-img-sead {
+    .single__hero-sead {
         display: none;
     }
 }
 @media screen and (max-width: 479.98px){
-    .single__hero-img-decor {
+    .single__hero-strawberry {
         display: none;
     }
 }

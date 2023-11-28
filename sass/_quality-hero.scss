@@ -6,22 +6,26 @@
     background-size: cover;
     overflow: hidden;
 }
-.quality__hero-img-sead {
+.quality__hero-sead {
     position: absolute;
     top: 110px;
     left: 25%;
+    width: 90px;
+    height: 90px;
+    fill: #7DCAC9;
 }
-.quality__hero-img-sead_big {
+.quality__hero-sead_big {
     position: absolute;
     bottom: 57px;
     right: 27%;
-    stroke: #7DCAC9;
+    width: 130px;
+    height: 130px;
+    fill: #7DCAC9;
 }
 .quality__hero-container {
     position: relative;
     padding-top: 184px;
     padding-bottom: 184px;
-    fill: #7DCAC9;
 }
 .quality__hero-body {
     display: flex;

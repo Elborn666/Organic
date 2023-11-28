@@ -6,35 +6,43 @@
     background-size: cover;
     overflow: hidden;
 }
-.shop__hero-img-garlic {
+.shop__garlic {
     position: absolute;
     top: 20px;
     left: 37%;
     width: 140px;
     height: 140px;
+    fill: #D1D1D1;
 }
-.shop__hero-img-sead {
+.shop__sead {
     position: absolute;
     bottom: 42px;
     left: 37%;
+    width: 90px;
+    height: 90px;
+    fill: #E1D4DB;
 }
-.shop__hero-img-sead_big {
+.shop__sead_big {
     position: absolute;
     bottom: 20px;
     right: 46%;
+    width: 120px;
+    height: 120px;
+    fill: #DDD9DA;
+}
+.shop__strawberry {
+    position: absolute;
+    top: 0px;
+    left: 63%;
+    transform: rotate(90deg);
+    width: 120px;
+    height: 120px;
+    fill: #D3CBCF;
 }
 .shop__hero-container {
     position: relative;
     padding-top: 184px;
     padding-bottom: 184px;
-}
-.shop__hero-img-decor {
-    position: absolute;
-    top: -10px;
-    left: 67%;
-    transform: rotate(90deg);
-    width: 140px;
-    height: 140px;
 }
 .shop__hero-body {
     display: flex;
@@ -42,12 +50,12 @@
     align-items: center;
 }
 @media screen and (max-width: 1439.98px){
-    .shop__hero-img-sead {
+    .shop__sead {
         display: none;
     }
 }
 @media screen and (max-width: 479.98px){
-    .shop__hero-img-decor {
+    .shop__strawberry {
         display: none;
     }
 }
