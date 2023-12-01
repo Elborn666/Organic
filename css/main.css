@@ -1,10 +1,21 @@
 @charset "UTF-8";
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.65; /* 29.772px */
   color: var(--general-color);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .container {
