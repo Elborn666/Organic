@@ -127,6 +127,54 @@
 .active__burger {
     display: block;
 }
+.burger__item:nth-child(3) {
+    position: relative;
+}
+.header__sublist-burger {
+    position: absolute;
+    z-index: 40;
+    top: 0px;
+    left: 100px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 150px;
+    padding: 10px 20px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+.header__subitem-burger {
+}
+.header__sublink-burger {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--title-color);
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2px; /* Высота линии */
+        background-color: var(--title-color); /* Цвет подчеркивания при исчезании линии*/
+        transition: width 0.5s; /* Время эффекта */
+        }
+        &:hover::after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 2px; /* Высота линии */
+        background-color: var(--title-color); /* Цвет подчеркивания при появлении линии*/
+        transition: width 0.5s;  /* Время эффекта */
+        }
+}
 @media screen and (max-width: 991.98px){
     .burger__nav {
         display: block;
@@ -153,4 +201,7 @@
     .burger__input {
         width: 210px;
     }
+}
+.header__sublist-burger.open {
+    display: flex;
 }

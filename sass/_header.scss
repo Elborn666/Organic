@@ -37,6 +37,9 @@
 .header__item:nth-child(3) {
     position: relative;
 }
+.header__item:hover:nth-child(3) .header__sublist {
+    display: flex;
+}
 .header__link {
     position: relative;
     font-family: "Roboto";
@@ -255,10 +258,9 @@
         font-size: 20px;
     }
 }
-
+.touch .header__sublist.open {
+    display: none;
+}
 .header__item:hover:nth-child(3) .header__sublist {
     display: flex;
 }
-// .mouse .header__item:hover:nth-child(3) .header__sublist {
-//     display: flex;
-// }

@@ -9,14 +9,14 @@ let isMobile = {
 		let body=document.querySelector('body');
 if(isMobile.any()){
 		body.classList.add('touch');
-		let arrow=document.querySelectorAll('.page');
-	for(i=0; i<arrow.length; i++){
-			let thisLink=arrow[i].previousElementSibling;
-			let subMenu=arrow[i].nextElementSibling;
-			let thisArrow=arrow[i];
+		let arrows = document.querySelectorAll('.js-arrow');
+	for(let arrow of arrows){
+			let thisLink=arrow.previousElementSibling;
+			let subMenu=arrow.childNodes[1];
+			let thisArrow=arrow;
 
 			thisLink.classList.add('parent');
-		arrow[i].addEventListener('click', function(){
+			arrow.addEventListener('click', function(){
 			subMenu.classList.toggle('open');
 			thisArrow.classList.toggle('active');
 		});

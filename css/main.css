@@ -222,6 +222,10 @@ a {
   position: relative;
 }
 
+.header__item:hover:nth-child(3) .header__sublist {
+  display: flex;
+}
+
 .header__link {
   position: relative;
   font-family: "Roboto";
@@ -453,6 +457,10 @@ a {
     font-size: 20px;
   }
 }
+.touch .header__sublist.open {
+  display: none;
+}
+
 .header__item:hover:nth-child(3) .header__sublist {
   display: flex;
 }
@@ -4920,6 +4928,54 @@ a {
   display: block;
 }
 
+.burger__item:nth-child(3) {
+  position: relative;
+}
+
+.header__sublist-burger {
+  position: absolute;
+  z-index: 40;
+  top: 0px;
+  left: 100px;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+}
+
+.header__sublink-burger {
+  position: relative;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--title-color);
+}
+.header__sublink-burger::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: var(--title-color); /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+.header__sublink-burger:hover::after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px; /* Высота линии */
+  background-color: var(--title-color); /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+
 @media screen and (max-width: 991.98px) {
   .burger__nav {
     display: block;
@@ -4945,6 +5001,10 @@ a {
     width: 210px;
   }
 }
+.header__sublist-burger.open {
+  display: flex;
+}
+
 .swiper {
   width: 600px;
   height: 300px;
