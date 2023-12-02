@@ -541,6 +541,10 @@ a {
   margin-bottom: 23px;
 }
 
+.hero__wrapper-button {
+  display: inline-flex;
+}
+
 .hero__button {
   display: flex;
   align-items: center;
@@ -756,6 +760,10 @@ a {
 
 .main__about-item-text {
   max-width: 444px;
+}
+
+.main__about-wrapper-button {
+  display: inline-flex;
 }
 
 .main__about-button {
@@ -1512,6 +1520,10 @@ a {
   margin-bottom: 15px;
 }
 
+.main__news-wrapper-link {
+  display: inline-flex;
+}
+
 .main__news-item-button {
   display: flex;
   align-items: center;
@@ -1706,6 +1718,10 @@ a {
   display: flex;
   align-items: center;
   column-gap: 15px;
+}
+
+.about__us-wrapper-link {
+  display: inline-flex;
 }
 
 .about__us-button {
@@ -3808,6 +3824,10 @@ a {
 
 .news__list-text {
   margin-bottom: 15px;
+}
+
+.news__list-wrapper-link {
+  display: inline-flex;
 }
 
 .news__list-item-button {
