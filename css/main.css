@@ -259,6 +259,11 @@ a {
 .header__icon-arrow {
   width: 10px;
   height: 10px;
+  transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__icon-arrow.active {
+  transform: scale(1, -1);
 }
 
 .header__sublist {
@@ -458,10 +463,6 @@ a {
   }
 }
 .touch .header__sublist.open {
-  display: none;
-}
-
-.header__item:hover:nth-child(3) .header__sublist {
   display: flex;
 }
 
@@ -4955,8 +4956,8 @@ a {
 .header__sublist-burger {
   position: absolute;
   z-index: 40;
-  top: 0px;
-  left: 100px;
+  top: -5px;
+  left: 90px;
   display: none;
   flex-direction: column;
   gap: 10px;

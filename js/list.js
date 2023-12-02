@@ -11,11 +11,11 @@ if(isMobile.any()){
 		body.classList.add('touch');
 		let arrows = document.querySelectorAll('.js-arrow');
 	for(let arrow of arrows){
-			let thisLink=arrow.previousElementSibling;
-			let subMenu=arrow.childNodes[1];
+			// let thisLink=arrow.previousElementSibling;
+			let subMenu=arrow.nextElementSibling;
 			let thisArrow=arrow;
 
-			thisLink.classList.add('parent');
+			// thisLink.classList.add('parent');
 			arrow.addEventListener('click', function(){
 			subMenu.classList.toggle('open');
 			thisArrow.classList.toggle('active');
